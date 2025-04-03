@@ -1,0 +1,16 @@
+# Pastas e arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Arquivos do Docker
+*.log
+*.pid
+*.sock
+volumes/
+elasticsearch_data/
+
+# Credenciais sensíveis (caso tenha criado um arquivo .env)
+.env
